@@ -1,0 +1,80 @@
+---
+author: "Parker Horn"
+output: 
+  rmdformats::robobook:
+---
+
+<script>
+  // Ensure the script runs after the DOM is fully loaded and robobook's JS has initialized
+  $(document).ready(function() {
+    // Remove the 'with-summary' class from the '.book' element.
+    // This will ensure the sidebar is collapsed/hidden by default on page load,
+    // regardless of screen size.
+    $(".book").removeClass("with-summary");
+
+    // If you ever want to re-enable it for debugging or testing, you could run this in console:
+    // $(".book").addClass("with-summary");
+  });
+</script>
+
+<style>
+  a {
+    color: #53a92b !important;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #3b781f !important;
+    text-decoration: underline;
+  }
+</style>
+
+<style>
+  h2 {
+    text-align: center;
+  }
+</style>
+
+<h1 style="text-align: center;">Donor Resources</h1>
+
+<h3 style="text-align: center;"><i>Explore Our Impact</i></h3>
+
+<div style="text-align: center; margin-top: 1em;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/safi_logo-removebg-preview.png" alt="SAFI Logo" height="200px">
+</div>
+--- 
+
+## Full Donor Report
+
+<div style="text-align: center;">
+  <a href="https://pjh2112.github.io/SAFI-donor-resources/reports/GH-uploaded-donor-report.html" target="_blank">Read the Full Donor Report</a>
+</div>
+
+## Impact Stories
+
+<div style="text-align: center;">
+  <a href="https://pjh2112.github.io/SAFI-donor-resources/reports/beneficiary-stories.html" target="_blank">Read Stories from SAFI Beneficiaries</a>
+</div>
+
+## Ongoing Research
+
+<div style="text-align: center;">
+  <a href="https://drive.google.com/drive/folders/1dL9eek7zJq0X297ba11nQiVlDsTjimfw?usp=sharing" target="_blank">Read About On-going Research Conducted by SAFI</a>
+</div>
+
+## Photos
+
+<div style="text-align: center;">
+  <a href="https://drive.google.com/drive/folders/1xI3xVfeZa3YbC1_yFHj3dxge-YVLxGGI?usp=sharing" target="_blank">View Photos of SAFI's Work</a>
+</div>
+
+---
+
+## Contact Us
+
+<div style="text-align: center;">If you would like to learn more about SAFI’s programs or explore partnership opportunities, we’d love to hear from you.
+
+**Email:** info@safimw.org  
+**WhatsApp:** +265 889 830 777  
+**Website:** [safimw.org](https://www.safimw.org/)  
+**Facebook:** [facebook.com/safimalawi.org](https://www.facebook.com/safimalawi.org)</div>

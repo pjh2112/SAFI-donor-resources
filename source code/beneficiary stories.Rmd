@@ -1,0 +1,290 @@
+---
+author: "Parker Horn"
+output: 
+  rmdformats::robobook:
+    rmdformats::robobook:
+    # Pass html_document options within the rmdformats style
+    # This ensures 'toc' is passed to the underlying function once
+    # and not duplicated by robobook's defaults
+    html_document:
+      toc: false
+      toc_depth: 2 # Still good to include this, just in case
+---
+
+<script>
+  // Ensure the script runs after the DOM is fully loaded and robobook's JS has initialized
+  $(document).ready(function() {
+    // Remove the 'with-summary' class from the '.book' element.
+    // This will ensure the sidebar is collapsed/hidden by default on page load,
+    // regardless of screen size.
+    $(".book").removeClass("with-summary");
+
+    // If you ever want to re-enable it for debugging or testing, you could run this in console:
+    // $(".book").addClass("with-summary");
+  });
+</script>
+
+<style>
+  details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  details p {
+    margin-bottom: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  summary {
+    color: #53a92b;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  summary:hover {
+    color: #3b781f !important;
+    text-decoration: underline;
+  }
+
+  p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+</style>
+
+<h1 style="text-align: center;">Stories of SAFI's Impact</h1>
+
+<div style="text-align: center; margin-top: 1em;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/safi_logo-removebg-preview.png"
+       alt="SAFI Logo"
+       style="height: 200px;">
+</div>
+
+---
+
+## Educate the Children
+
+<details>
+  <summary style="text-align: center;"><strong> Thomas Mwale — a Duty to Serve</strong></summary>
+
+<p>Thomas Mwale is a 42-year-old father of four—not one many would expect to be studying at university. Eight years ago, Thomas was a working professional struggling to pay for the needs of his family, like many people in Malawi. He had dreams of serving the needy and pursuing his passion of helping others. He enrolled in university courses studying social work, but was unable to continue due to the tuition cost. Facing the threat of dropping out but wanting to pursue his dreams, he was presented with the opportunity to continue studying through SAFI's Educate the Children program. His dreams were back in the realm of possibility, and Thomas took that possibility and ran with it. </p> 
+<p>Supported by SAFI, Thomas finished his degree in four years. Since then, he has dedicated his life to seeking out vulnerable students in rural villages—those unlikely to be able to become educated, such as children of poor farmers, orphans, and the sick or handicapped. Working within those communities, Thomas has been able to identify these children, monitor their progress, and connect them with the necessary support, such as health care and adoption programs. In connection with the very program that supported his education, Thomas has provided scholarships to over one hundred students. "I feel happy to see the kids succeed. Some of them I found when they were seven or eight, now they're completing university," says Thomas.</p>
+<p>But Thomas doesn't plan on stopping there. We met him at the Malawi College of Medical Science, where he is working towards his certificate in public health. Soon after, he plans on opening a hospital that specifically serves children under five—the first of its kind in Malawi. "I see the challenges that children face, and I have to help. The possibilities in the future of these children is great, they just need some support."</p>
+<p>Without the SAFI's support of one student, Thomas, hundreds of children in Malawi would have been denied the opportunity to succeed and make a difference. "The knowledge I have gained from school, I can communicate to those in need. Without SAFI, I wouldn't have the training necessary to bring growth to the needy. We have to continue helping needy students. I myself have benefitted, and many have benefitted because of me. If SAFI didn't support me, these kids wouldn't have had a chance."</p>
+<p>Continued support to the Educate the Children program doesn't just help individuals—families and communities grow and progress, leading the nation to prosperity through the simple act of paying school fees.</p>
+
+<div style="text-align: center;">
+<img src="https://pjh2112.github.io/SAFI-donor-resources/media/Malawi%20Medical%20College-3.jpg" alt="Photo of Thomas Mwale" style="display: block; margin-left: auto; margin-right: auto;" height="400" loading="lazy">
+</div>
+
+</details>
+
+
+<details>
+  <summary style="text-align: center;"><strong> Massa Chunga — From Struggle to Service</strong></summary>
+  
+<p>Massa Chunga is a first year student at the Malawi College of Health Science. Starting last week, he is adjusting to his new life in Lilongwe. Massa is from a small village called Madisi, very close to SAFI campus in the district of Dowa. Massa was raised by his godfather after both of his parents passed away, and is the first member of his family to pursue a college education. Upon finishing his education, he will be the first in his community to become a doctor. Massa became aware of the difficulties that many of his friends and family face daily in trying to receive adequate medical care—there is no public hospital in the village of Madisi, and very few could pay the expenses of private clinics. This inspired Massa to want to become a doctor and help his community by opening a clinic and offering free services to those who cannot afford care. Massa commented that most people who become doctors in Malawi stay in the capital of Lilongwe because of higher salaries. He didn't seem swayed by this, staying true to his motivation to help the poor.</p>
+
+<p>Up until now, Massa has been unable to pay the MK400,000 ($228 USD) per semester tuition to start his education. For the past eight years, Massa has tried and failed to come up with the money. Massa still faces challenges, walking everyday for two hours to reach campus. He still lacks basic needs, often coming to school without enough food. These things make it difficult, but his determination to his dream wouldn't let him quit. He has overcome many challenges up to this point and refuses to give up. Now, SAFI pays his tuition and supplies him with a small stipend to continue studying. Massa is grateful to SAFI for allowing him the opportunity to pursue his dreams of serving the poor and needy.</p>
+
+<div style="text-align: center;">
+<img src="https://pjh2112.github.io/SAFI-donor-resources/media/CollegeofHealthScience-3.jpg" alt="Photo of Massa Chunga" style="display: block; margin-left: auto; margin-right: auto;" height="400" loading="lazy">
+</div>
+
+</details>
+
+
+<details>
+  <summary style="text-align: center;"><strong> Ellen Chibwe — Dreaming Big</strong></summary>
+
+<p>Ellen is a 21 year old secondary school student in form 1 (the equivalent of 9th grade). She is the oldest of four sisters, and was raised by her single mother. Like most students in Malawi, the main barrier to her success was the lack of money available to pay school fees. At Chamkango secondary school, tuition costs 130,000 Malawi Kwacha, or 75 USD. Because of this barrier, Ellen was unable to start secondary school on time, missing a good portion of her first semesters. Apart from just tuition, Ellen has to pay for the mandated uniform, shoes, a backpack, books, and other materials in order to continue going to school. Ellen now lives on the campus of her school but before moving in, she also faced the threat of gender-based violence on her way to school. Her other siblings, up to this point, are unable to continue their education because of the same barriers.</p>
+
+<p>With the help of SAFI, Ellen has had the opportunity to receive her tuition payments regularly, as well as enough money to live on campus in a hostel. This has allowed Ellen to excel in her studies and look forward to a career in journalism after completing her secondary and university education. With a stable career in her chosen field, Ellen hopes to change her family status by relieving her mother of the stress of paying for school fees. Her sisters would be able to have the same opportunities as she has had, a dream of Ellen's. Ellen wanted to express her sincere gratitude to SAFI and hopes that more students will be able to participate as she has.</p>
+
+<div style="text-align: center;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/EllenChamkango.jpg" alt="Ellen 1" height="600px" loading="lazy">
+</div>
+
+</details>
+
+<details>
+  <summary style="text-align: center;"><strong> Hannah Maripenga — I Can Do It!</strong></summary>
+
+<p>Hannah Maripenga is a third-year student at LUANAR studying education. At this point in her program, Hannah is serving as a student teacher at a rural secondary school. Like many students in Malawi, Hannah was struggling to pay her school fees. This was impacting her performance, often causing her to miss class or fail to study due to lack of materials. About to withdraw, Hannah was able to get in contact with SAFI and was accepted to participate in the scholarship fund. Hannah hopes to use her education to become a role model for students like her. Knowing the difficulties that they face first hand gives her a unique perspective and ability to understand and cater to their needs. In the future, Hannah hopes to start her own organization named "I Can Do It," aimed at helping those in need to pay for their school fees.</p>
+
+<div style="text-align: center;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/LUANAR-42.jpg" alt="Hannah 1" height="600px" loading ="lazy">
+</div>
+
+</details>
+
+<details>
+  <summary style="text-align: center;"><strong> Kumbukani Machika — Overcoming Obstacles </strong></summary>
+
+  <p>Kumbukani is a 27 year old student working to earn his diploma in agriculture education at LUANAR (Lilongwe University of Agriculture and Natural Resources). He is in his second year, and has been a participant in SAFI's Educate the Children program since September of 2024. Kumbukani is an intelligent man and was very friendly. Upon meeting him, I noticed he was having difficulty writing his name down in my notebook. Despite this, we carried on with the interview. At the very end when I had finished my questions and left Kumbukani to give his final thoughts, he let me know that he was severely visually impaired. Kumbukani suffers from glaucoma, a condition usually treatable in developed countries. Because of his condition, Kumbukani faces massive obstacles in gaining his education. Without access to a laptop, he has a difficult time reading the small print in his textbooks. Despite being sponsored by SAFI, he has trouble affording eyedrops to alleviate his condition. On top of this, he faces the daily challenge of finding enough food, relying on friends and family.</p>
+  <p>Kumbukani is the first in his family to receive an education—his parents finished only primary school, and are farmers in a rural area outside of the city. Kumbukani didn't expect to be able to afford to go to school, but was inspired from a young age seeing others with an education. Determined, Kumbukani had to find a way to pay his school fees, which cost MK327,000 per semester, or the equivalent of around 180 USD. Faced with the threat of being forced to withdraw, Kumbukani heard about the scholarship from a friend who was also receiving help. This friend gave Kumbukani the phone number of Pastor Nelson Banda, SAFI's program manager for Educate the Children. Mr. Banda was able to meet with Kumbukani and set up a sponsorship to allow him to continue studying.</p>
+  <p>In the future, Kumbukani hopes to graduate and continue towards higher education. Coming from a rural background, he hopes to inspire others and support those in need. Acquiring his degree would allow Kumbukani the pathways towards continual community impact. By learning modern farming techniques, agribusiness and educational program management, Kumbukani's family and community would be greatly served. SAFI's role in his life has opened doors not only for his own personal success, but those around him.</p>
+
+<div style="text-align: center;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/LUANAR-16.jpg" alt="Kumbukani" height="600px" loading="lazy">
+</div>
+
+</details>
+
+<details>
+  <summary style="text-align: center;"><strong>Vincent Haleke — Renewed Hope</strong></summary>
+
+  <p>Vincent Haleke is currently in his final semester at LUANAR working on his final project. Vincent grew up in a village called Mulange, his dad was a primary school teacher. The family relied on subsistence farming to survive as the income from his father's job wasn't enough. While it was always his dream to become educated, Vincent didn't think it was possible. He was almost forced to drop out after not meeting the deadline to pay his fees. Both he and his family had done all the could, but it wasn't enough. As a last resort, Vincent was looking on Facebook for potential help and stumbled upon SAFI's page. He reached out, and was able to be accepted to the scholarship program. After getting his bachelor's degree, Vincent hopes to continue onto a master's degree. He is motivated to be an example to his siblings and community—he noted that there are many people in need and feels that the skills he has learned at university will be able to greatly impact them. When asked what he would tell to potential funders of SAFI's program, he emphasized the fact that the impact is not individual. Students like him will go on to change the lives of their families, communities, and nation as a whole. The way SAFI is set up and the values it promotes lead to generational impact. Vincent has been given renewed hope through SAFI and emphasized his gratitude to the program and its funders.</p>
+
+<div style="text-align: center;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/VincentHaleke-1.jpg" alt="Vincent Haleke 1" height="600px" loading="lazy">
+</div>
+
+</details>
+
+## Self-Reliance
+
+<details>
+  <summary style="text-align: center;"><strong> Charity Gausi — A Family Transformed</strong></summary>
+
+<p>Charity Gausi is a 32-year-old single mother, living in the village of Chikunthu. Few would guess that because of her help, the community has grown from facing huge challenges to welcoming even bigger opportunity. Chosen to head out the SAFI initiatives of self-reliance, Charity participated in a two-week course at SAFI campus to learn livestock management, agroforesty, family relations, modernized farming, and backyard garden techniques. Soon after returning home, she started not only implementing these programs, but teaching 15 other families to do the same.</p> 
+
+<p>Before being approached by SAFI, Charity and her young daughter were facing food insecurity and low crop yield. Struggling to get a leg up, Charity was lacking the knowledge and skill necessary to take her limited resources and reach success. Nowadays, Charity has taken her harvest from three bags of maize to 22—more than a 7x increase. On top of this, she has multiplied her income by a factor of ten, now making around MWK 700,000 a year thanks to her small business endeavors.</p>
+
+<p>Of all the students of Charity's, each one now has a backyard garden to source their own vegetables, sells the surplus of their crops, and has invested in livestock. One student sticks out in particular though—Charity's mother, Grace. Since learning the new techniques from SAFI, Grace has doubled her income and expanded her livestock investments. She no longer struggles to find food, and can support all her children and their basic needs. With all this prosperity, Grace's household has become a happier, more stable environment. "Without money, we quarreled. Now, we work together and are happy," she says. In the future, Grace hopes to one day buy a car to get around, now that her age is affecting her joints. "Thank you SAFI for what you have done in my family and my community. Other communities need to benefit like we have. I'm so grateful for what SAFI does!" We share the same sentiment. The family and community impact of SAFI's simple programs has effects that ripple across generations, changing families, communities, and the beautiful country of Malawi.</p>
+
+<div style="text-align: center;">
+ <img src="https://pjh2112.github.io/SAFI-donor-resources/media/Chakhaza%20and%20Simlemba-19.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+  
+</details>
+
+
+<details>
+  <summary style="text-align: center;"><strong> Johannes and Gloria Phiri — Role Models for a Struggling Community</strong></summary>
+
+<p>In 2023, SAFI visited the village of Chukozo, looking to find participants for their one-week self-reliance program. After speaking with the village chief, Johannes Phiri was chosen to fill the role. He would go to SAFI campus for one week to learn modernized farming techniques, business management, agroforestry, and fruit cultivation skills that he could then bring back to his village and teach others to implement. Currently, he leads 42 other farmers in the village, teaching them the about the skills SAFI has given him to increase his harvest and make his farm sustainable. "We were only getting maybe half a bag of soybeans, for example, but now we are able to get seven, eight bags of soybeans. The maize, we used to harvest 2-3 bags before, but now we're able to get 60 bags." Johannes says. With this increase, Johannes and his wife have multiplied their income, making MWK 1.5 million from selling the surplus from last year's harvest. Visiting the farm, you can see the impact that this program has had. With the extra money, the family has invested in more livestock, rebuilt their house, bought more land—they no longer go hungry at any point in the year. Every square inch of their property is covered with trees, flowers, or crops. Johannes mentioned that one of his sons has taken up the new farming techniques, now selling a surplus and producing enough to feed his family reliably.</p>
+<p>As for the community, Johannes says that much has changed. Because of the food insecurity, theft of crops was very common. Now that Johannes has helped so many farmers to start backyard gardens, there is no longer any need to steal. The village is a safer, better nourished community. Many fellow farmers have followed in Johannes' footsteps, making great strides in their economic progress. In the future, Johannes and Gloria hope to build a better house, start a commercial farm, and raise more livestock.</p>
+
+<div style="text-align: center;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/Johannes%20and%20Gloria-1.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+  
+</details>
+
+
+<details>
+  <summary style="text-align: center;"><strong> Michael and Esther — Steady Growth in Gosten</strong></summary>
+
+<p>In the village of Gosten, Michael and Esther are quietly building a better future for their family. As lead farmers trained through SAFI’s programs, they’ve adopted modern farming techniques and backyard gardening strategies that have made a noticeable difference—both in their household and in the lives of others around them</p>
+
+<p>Before SAFI, Michael harvested about six bags of maize each season. Today, that number has more than doubled to between 12 and 15 bags. Esther’s backyard garden not only feeds their family with fresh vegetables but also generates about 8,000 kwacha a week in income. This extra income means they no longer have to buy vegetables and can put money toward other priorities.</p>
+
+<p>With their increased earnings, Michael and Esther have purchased land and are in the process of building their own home. They’ve also invested in school books and supplies for their two children, who are now performing better in school thanks to more consistent meals and resources.</p>
+
+<p>The couple’s main income comes from maize, but they also grow beans and soybeans, raise livestock, and sell farm inputs locally. Esther continues her work as a hairdresser to supplement their earnings. They hope to learn more about livestock management and eventually own an oxcart to expand their farming operation.</p>
+
+<p>Change in Gosten is gradual. Not every neighbor has taken the same steps yet, but those who have applied SAFI’s teachings are starting to see similar results. “We hope more people will try the irrigation techniques we’ve learned,” Michael says. “It really does make a difference.”</p>
+
+<div style="text-align: center;">
+   <img src="https://pjh2112.github.io/SAFI-donor-resources/media/Self-reliance-48.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+</details>
+
+
+<details>
+  <summary style="text-align: center;"><strong> Community Bank — Mwalala Village</strong></summary>
+
+<p>In 2021, twelve women from the rural village of Mwalala launched a simple but powerful new idea: to start a village bank. Facing food insecurity and lack of funds to pay for basic needs, they needed a way to support one another through their struggles. To start, they each began depositing MWK 1000 every few weeks into the bank, creating a small pool of capital that could be used for short-term loans to cover medical expenses, school fees, or other urgent needs. Already, this idea was growing—but with the help of SAFI initiatives, it would become transformative.</p>
+
+<p>SAFI's self-reliance program, which trains a lead farmer for which village on modernized farming techniques and business management skills, brought the advent of backyard gardens to Mwalala. Households around the village began planting and harvesting their own vegetables year-round, improving their food security and even making small profits. The initial group of SAFI beneficiaries was small, but members of the village saw the potential to extend the benefits more widely. In order to do this, members of the bank started purchasing and storing seeds which they lent out on short-term credit. After the gardens were planted and producing, the borrowers could pay back the bank with the profits they had made, continuing to grow their gardens and businesses.</p> 
+
+<p>The seed bank also helped to protect against price fluctuation, drought, and crop failures—all  common challenges in the area. Today, the bank holds about MWK 1.2 million in cash, as well as a large store of seeds. As more members join the bank, so does the bank’s impact: funding microbusinesses, empowering women, and strengthening the village’s self-sufficiency. The result is a community transformed: women now feed their families fresh vegetables daily, afford basic necessities, and pass on SAFI’s agricultural knowledge to others. What began as emergency support has become a mechanism for perpetual growth, economic empowerment, and social cohesion.</p>
+
+<p>Thanks to SAFI's self-reliance program and the determination of the women of Mwalala, these twelve women turned their gardens into a movement—empowering each other, lifting their community, proving that with the right support, small beginnings can yield extraordinary change.</p>
+
+<div style="text-align: center;">
+   <img src="https://pjh2112.github.io/SAFI-donor-resources/media/DSCF2424.JPG" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+<div style="text-align: center;">
+ <img src="https://pjh2112.github.io/SAFI-donor-resources/media/DSCF2429.JPG" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+</details>
+
+<details>
+  <summary style="text-align: center;"><strong> Stefano Pakhomo — a New Ride to Success </strong></summary>
+
+<p>Stephano Pakhomo's journey from a follower farmer to a successful entrepreneur is a testament to dedication and smart agricultural practices. Working alongside Mr. Tiuzeni, a lead farmer in Salima, Stephano began his season with a modest 5 kgs of soy bean seed from SAFI. Recognizing the potential for greater yield, he invested in an additional 30 kgs, bringing his total planted seed to 35 kg across 2.5 acres. This initial commitment laid the groundwork for what would become a remarkable harvest.</p>
+
+<p>His hard work paid off big time! Stephano harvested an amazing 30 bags of soy beans. This huge harvest proved that expanding his planting was a good idea and that his farming methods worked well. But the real success came after he sold his beans. Out of the 30 bags, Stephano sold 28 bags and earned a fantastic 2,180,000 Malawian Kwacha ($1,250 USD). He kept the last two bags, one for consumption and the other to use as seeds for next year's planting. This sun of money changed Stephano's life and allowed him to buy something very important."With the money from my soy bean sales, I'm proud to say I bought a motorcycle!" Stephano beams. "This isn't just for getting around, it is going to help me start a business transporting people. That is going to give me the income I need to take care of my household, and importantly, to secure packed maize seeds and fertilizer for the upcoming season. It is a huge step towards greater independence and economic prosperity for me and my family."</p>
+
+<p>Stephano’s journey from a modest start with soy bean seeds to owning a motorcycle and launching a transport business is a powerful illustration of agricultural entrepreneurship. Going forward, Stephano is a free man, joining with his wife and kids to create a self-reliant family.</p>
+
+<div style="text-align: center;">
+ <img src="https://pjh2112.github.io/SAFI-donor-resources/media/Salima-9.jpg" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+</details>
+
+## Wells of Hope
+
+<details>
+  <summary style="text-align: center;"><strong> Yohane Village — a Community On the Rise </strong></summary>
+
+<p>Arriving to the village of Yohane in the district of Mnchinje, you will be greeted by happy faces and voices singing welcome songs. The village is bustling with life. This hasn't always been the case—before SAFI arrived in 2022 to build a borehole, many members faced the insurmountable problem of water insecurity. Well water is often the only solution—but it hardly is one. Women in the village used to spend hours daily walking to a shallow well nearby, only to wait in overcrowded lines to be using unsafe water. Many people suffered from diarrhea and other illnesses when relying on the untreated well water. All this changed however, when the village leaders were approached in 2022 to become SAFI beneficiaries. Initially, SAFI hoped to start their self-reliance program, teaching people to become independent farmers with access to enough food. This proved a challenge however, when they realized that doing so would be impossible without a reliable source of water. "We proposed that they teach us how to construct a backyard garden, but we don't have enough water. They told us it was more important that we drill a borehole, so we proposed that to them." says Henry Masa, a town leader. </p>
+
+<p>Nowadays, water can be readily retrieved by just walking a few minutes. The people have enough water for anything they need, and have seen numerous improvements in their families and communities. Before, many children were unable to go to school as their mothers couldn't fetch enough water to bathe them, wash their clothes, or cook for them. Many students dropped out of school because of these challenges.After the borehole has been drilled, the students have been able to return to school. Their parents, with the newfound time, have built gardens, irrigate their crops, and supply the basic needs for their homes. Village members rotate cleaning duties and pay to supply parts and maintenance, in order to keep things running smoothly.</p>
+
+<p>The peace of mind afforded to hundreds of people in Yohane is priceless. The benefits of the borehole extend much beyond just water—the village is alive, and will continue to prosper. "We only thank SAFI for drilling the borehole, because now we are so safe. We drink clean water as I said, we construct backyard gardens and find food easily. We just thank SAFI for drilling the borehole, all of our problems have been solved!"</p>
+
+<div style="text-align: center;">
+<img src="https://pjh2112.github.io/SAFI-donor-resources/media/MnchinjiBorehole-4.jpg" alt="Mchinji borehole 1" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+<div style="text-align: center;">
+<img src="https://pjh2112.github.io/SAFI-donor-resources/media/MnchinjiBorehole-14.jpg" alt="Mchinji borehole 2" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+</details>
+
+<details>
+  <summary style="text-align: center;"><strong> Sunduza Village — Holistic Change </strong></summary>
+
+<p>Filimoni Mtalimanja is the lead farmer of Sunduza, chosen by his village chief to teach other members of the village about SAFI's life-changing interventions. There was only one problem—the village depended on shallow, hand-dug wells from the nearby river. Village members, mostly women, would spend hours walking to the river to retrieve water, only to get sick from drinking it.</p>
+
+</p>All of this changed last November when SAFI drilled a borehole to support the members in their adoption of the self-reliance programs. "Since the borehole was installed, we are healthier, there is a reduction in diarrhea cases. Women no longer have to travel at night to collect water, and are free from danger." Filimoni says. Beyond that, the people now have more time and energy to develop their homes and village. With extra water to irrigate his backyard garden, Filimoni has made enough profit to buy an oxcart. "The collective development of the village, I see through my own home." he says. Many members of the village have followed Filimoni's lead, implementing important agricultural techniques that he learned through SAFI. In the future, he hopes to see livestock and small business growth, as well as better quality of life in his home.</p>
+
+<p>Filimoni says "I commend SAFI for what they have done in our community. It has given us agricultural knowledge, sanitation, it has also given us the borehole which has changed a lot of things in the community. I ask that SAFI do this for more communities in this country."</p>
+
+<div style="text-align: center;">
+<img src="https://pjh2112.github.io/SAFI-donor-resources/media/DSCF2032.jpg" alt="Sunduza borehole 1" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+<div style="text-align: center;">
+<img src="https://pjh2112.github.io/SAFI-donor-resources/media/DSCF2077.JPG" alt="Sunduza borehole 2" style="display: block; margin-left: auto; margin-right: auto;" height="275" loading="lazy">
+</div>
+
+</details>
+
+<details>
+  <summary style="text-align: center;"><strong> Ngombe — Struggle for Water </strong></summary>
+
+<p>Situated in the cool highlands of Vuso Jere, the village of Ngombe is home to less than 100 people. The community relies on maize and other crops to subsist, but face a massive obstacle every day—finding enough clean water. Women in the village walk ~30 minutes four times a day to a shallow well in a riverbed below the village to collect the water that flows from two small pipes. In the common event of these pipes running dry, the women will often spend hours waiting for the water to come back on. While the water is mostly clean, the members of the community mentioned that because of its position, there is often trash and pollution that collects in the well. Ngombe isn't the only community that faces these problems either—hundreds more people from surrounding villages rely on the same well, with crowds often collecting at the site without enough water to provide for everyone. Members of the community expressed the need for a borehole, hoping for a solution that would decrease their time spent completing this basic chore. Women are the ones tasked with the water collection, which leaves them less time to attend to their children and their household needs. Because of this, it is difficult for girls in communities such as Ngombe to continue in their schooling, often condemned to the grueling labors of water collection.</p>
+
+<p>SAFI's Wells of Hope program targets communities like Ngombe who face significant challenges in water security and safety. With a borehole close by, the problems of polluted and unsafe water, distance, and water reliability would all be solved.</p>
+
+<div style="text-align: center;">
+  <img src="https://pjh2112.github.io/SAFI-donor-resources/media/Vusojere-46.jpg" alt="Ngombe" loading="lazy">
+</div>
+
+</details>
